@@ -1,0 +1,12 @@
+Some advices if you want to run the code:
+
+1. The main code is the file: "Modelo_Numerico_Interior_Estelar.py" which gets you the parameters: temperature, pressure, luminosity and 
+mass over the different layers by integration for a given initial conditions (total mass, chemical composition, total radius and total
+luminosity). Among all the possibilities for the central temperature of the star it gives the one that minimize the relative total error
+(differencies in the parameters when both integrations plug)
+
+2. Some 'extra' code is: "Calculo_configuracion_optima.py" which gets among all the different possibilities from combinations of total 
+luminosity and total radius given by an initial array the model that minimizes the error.
+
+WARNING!!! In the second step code you have to run the main file (step 1) take into account that you have to mute (or erase) the inputs of
+Ltot and Rtot.

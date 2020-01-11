@@ -1,0 +1,15 @@
+.
+./Auxiliar
+./Optimum_configuration_model_code
+./Optimum_model_results
+./Main code
+./.git
+./.git/refs
+./.git/refs/tags
+./.git/refs/heads
+./.git/hooks
+./.git/info
+./.git/objects
+./.git/objects/info
+./.git/objects/pack
+./.git/branches
